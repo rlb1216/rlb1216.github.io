@@ -7,7 +7,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-gap: 20px;
-
 }
 
 
@@ -20,6 +19,11 @@ footer {
 
 header {
   font-family: Nunito, Georgia, sans-serif;
+  font-size: 35px
+}
+
+a {
+  color: rgb(0, 0, 255);
 }
 
 a:link {
@@ -47,6 +51,12 @@ main {
   "people environment"
   "transnational transnational";
 }
+
+h2,
+h3 {
+  font-family: Times New Roman, sans-serif;
+}
+
 
 #introduction {
   grid-area: intro;
