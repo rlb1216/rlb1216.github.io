@@ -22,3 +22,24 @@ p {
 figcaption {
     color: rgb(112, 41, 99);
 }
+
+
+a {
+  color: rgb(231, 84, 128);
+}
+
+a:link {
+  color: rgb(231, 84, 128);
+}
+
+a:visited {
+  color: rgb(70,130,180);
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+a:active {
+  color: rgb(0, 0, 0);
+}
