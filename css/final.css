@@ -1,17 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 body {
+  font-family: Handlee, Georgia, sans-serif;
   background-color: rgb(192, 192, 192);
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 2fr 2fr;
   grid-gap: 20px;
   max-width: 960px;
   margin: 0 auto;
 }
 
-header {
-  color: rgb(0, 71, 100);
+main {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+  grid-template-areas:
+  "header header"
+  "intro intro"
+  "left right"
 }
-
-h2, h3 {
+header, h2, h3 {
   color: rgb(0, 71, 100);
 }
 
@@ -42,4 +51,68 @@ a:hover {
 
 a:active {
   color: rgb(0, 0, 0);
+}
+
+#welcome-header {
+  grid-area: header;
+}
+
+#welcome {
+  grid-area: intro;
+}
+
+#contact {
+  grid-area: left;
+}
+
+#nav {
+  grid-area: right;
+}
+
+#song-header {
+  grid-area: header;
+}
+
+#song-about {
+  grid-area: intro;
+}
+
+#statement-paper {
+  grid-area: left;
+}
+
+#costume {
+  grid-area: right;
+}
+
+#articles {
+  grid-area: header;
+}
+
+#news-intro {
+  grid-area: intro;
+}
+
+#hard-news {
+  grid-area: left;
+}
+
+#feature {
+  grid-area: right;
+}
+
+#graphic-header {
+  grid-area: header;
+}
+
+#graphic-about {
+  grid-area: intro;
+}
+
+#brochure {
+  grid-area: left;
+}
+
+#magazine {
+  grid-area: right;
 }
