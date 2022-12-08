@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 body {
-  font-family: Handlee, Georgia, sans-serif;
+  font-family: "Handlee", "Georgia", sans-serif;
   background-color: rgb(192, 192, 192);
   display: grid;
   grid-template-columns: 2fr 2fr;
@@ -33,10 +33,7 @@ figcaption {
 }
 
 
-a {
-  color: rgb(231, 84, 128);
-}
-
+a,
 a:link {
   color: rgb(231, 84, 128);
 }
